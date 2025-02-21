@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bharathanatyam Karna</title>
+    <link rel="stylesheet" href="..\static\css\styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="output-area">
+        <h2 class="output-title">Karana Image for your Description</h2>
+        <div class="image-container">
+          <!-- Display the image here -->
+        </div>
+        <div id="folder-name-container" style="color: red">
+            <!-- Folder name will be displayed here -->
+          </div>
+      </div>
+
+      <div class="chat-area">
+        <div id="chat-box"></div>
+        <div class="chat-input">
+          <input
+            type="text"
+            id="userInput"
+            placeholder="Enter Karna Description..."
+          />
+          <button onclick="sendMessage()">Send</button>
+        </div>
+      </div>
+    </div>
+    <script src="..\static\js\script.js"></script>
+  </body>
+</html>
